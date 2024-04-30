@@ -1,0 +1,33 @@
+.conver {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    justify-content: center;
+    transition: 0.3s;
+    border-radius: 10%;
+}
+.conver:hover{
+    background-color: yellowgreen;
+    color: seashell;
+}
+input{
+    width: 100px;
+}
+table {
+    width: min-content;
+    border-color: cornsilk;
+    background-color:chocolate;
+    border-style: hidden;
+}
+td {
+    color: snow;
+    text-align: left;
+    align-content: center;
+    padding: 10px;
+}
+.table-res{
+    width: 100%;
+}

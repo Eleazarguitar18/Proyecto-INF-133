@@ -1,0 +1,366 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    background-color: cornflowerblue;
+}
+.cabecera{
+    background-color:black;
+    align-content: center;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: floralwhite;
+}
+/*portada*/
+
+.container-portada{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url(../images/portada.jpg);
+    background-size: 200%;
+    animation: movimiento 20s infinite linear alternate;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+}
+.degradado-capa{
+    /*width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(left, black, #0672d0);
+    opacity: 0.5;*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(left, black, cyan);
+    opacity: 0.5;
+}
+.container-detail{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+.detail{
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+.detail h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.detail p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.detail button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background: none;
+    border-style: none;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    transition: background 300ms;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.detail button:hover{
+    background: white;
+    color: black;
+}
+
+
+/** fin de la portada*/
+.centro{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /*position: absolute;*/
+    background: -webkit-linear-gradient(left, white, #20f371);
+    /*opacity: 0.5;*/
+    /*background-image: url(../images/body.jpg);
+    background-color: lavenderblush;*/
+    justify-content: space-between;
+}
+hr{
+    margin: 0;
+    padding: 1px;
+    border-style: none;
+    background: -webkit-linear-gradient(left, black, cyan);
+}
+
+.menu{
+    display: flex;
+    background-color: dimgrey;
+    padding: 0px;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: floralwhite;
+    padding:10px 50px 10px 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+a:hover{
+    transition: 0.5s;
+    background-color: black;
+    color:whitesmoke;
+}
+
+
+#inicio{
+    width: 100%;
+    /*height: 0%;*/
+}
+#inicio img{
+    width: 100%;
+    
+}
+/*  DETALLES  */
+#detalles{
+    width: 100%;
+    /*height: 0%;*/
+}
+#detalles img{
+    width: 100%;
+    
+}
+#detalles table{
+    width: min-content;
+    margin: auto;
+}
+
+
+/* respuestas etc*/
+#resultado button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background: orangered;
+    border-style: none;
+    border: 1px solid white;
+    color:white;
+    margin-top: 20px;
+    transition: background 300ms;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#resultado button:hover{
+    background: mediumseagreen;
+    color: white;
+}
+#resultado h2{
+    padding-top: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+}
+#resultado h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: midnightblue;
+}
+#resultado h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: slategray;
+}
+#resultado h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: teal;
+}
+#resultado p{
+    padding-top: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#resultado table{
+    margin: auto;
+}
+/*informacion*/
+
+
+#resultado1 h2{
+    padding-top: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+}
+#resultado1 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: midnightblue;
+}
+#resultado1 h4{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: slategray;
+}
+#resultado1 h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: teal;
+}
+#resultado1 p{
+    padding-top: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#resultado1 button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background: orangered;
+    border-style: none;
+    border: 1px solid white;
+    color:white;
+    margin-top: 20px;
+    transition: background 300ms;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#resultado1 button:hover{
+    background: mediumseagreen;
+    color: white;
+}
+/* main o pagina principal del contenido*/
+
+
+
+
+.mostrador{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-left: 9px;
+    padding: 8px;
+    
+}
+.mostrador p{
+    padding-top: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    /*background-color: royalblue;*/
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*
+.main-mostrador{
+    padding-left: 80px;
+    padding-right: 80px;
+}*/
+/* menu dos donde se muestran otros enlaces*/
+.menu2{
+    height: 100%;
+    cursor:pointer;
+    background-image: url(../images/menu2.jpg);
+    /*background-color: darkcyan;*/
+    position: relative;
+}
+.menu2 h4{
+    background-color: darkslategrey;
+    text-align: center;
+    color:whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+.menu2 div{
+    margin: 5px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-color: cornsilk;
+    color: whitesmoke;
+    /*background-color: lightsteelblue;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu2 div:hover{
+    transition: 0.7s;
+    color: black;
+    background-color: ghostwhite;
+    /*background-color: darkcyan;*/
+    /*background-color: cadetblue;*/
+    /*color: whitesmoke;*/
+}
+/* pie de pagina */
+
+.footer{
+    text-align: center;
+    color: honeydew;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    background-color: black;
+}
+.footer{
+    width: 100%;
+}
+.footer img{
+    padding: 0%;
+    width: 100%;
+}
+/*#####################*/
+  table p{
+      border: 0;
+      text-align: center;
+      border-style: none;
+      padding: 5px;
+      background-color: brown;
+      border-radius: 3px;
+      color: white;
+      font-size: 16px;
+      margin: 0;
+  }
+
+
+/* confuguracion responsiva*/
+@media only screen and (max-width: 600px) {
+.container{
+flex-direction: column;
+}
+.menu{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+a{
+    padding: 10px;
+    flex-wrap: nowrap;
+    
+}
+.centro{
+    flex-direction: column;
+}
+#resultado1{
+    width: 100%;
+}
+
+#resultado1 img{
+    width: 100%;
+}
+}
+
+

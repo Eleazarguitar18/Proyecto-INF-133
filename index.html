@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Web de Eleazar</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/furmu.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cabecera"><h1>Laboratorio de computación</h1></div>
+
+
+        <div class="container-portada">
+            <div class="degradado-capa"></div>
+                <div class="container-detail">
+                    <div class="detail">
+                        <h1>LABORATORIO DE DISEÑO Y JavaScript</h1>
+                        <p>Realizar una página Web con una cabecera y menú derecho e izquierdo, pie de página,
+                            y cada respuesta de la práctica debe mostrarse en el cuerpo del documento...</p>
+                        <button onclick="detalles()">Ver mas detalles</button>
+                    </div>
+                </div>
+        </div>
+
+
+        <div class="menu">
+            <a href="./index.html">Inicio</a> 
+            <!--<a href="#">Opciones</a>-->
+            <!--<a href="#">Imagenes</a>-->
+            <a href="#" onclick="detalles()">Detalles</a>
+        </div>
+        <div class="centro">
+            <nav class="menu2">                
+                    <h4>Preguntas</h4>
+                    <div onclick="ejer1()" >1. Serie fibonaci</div>
+                    <div onclick="ejer2()" >2. Serie de numeros binarios </div>
+                    <div onclick="ejer3()">3. Factoriales hasta N </div>
+                    <div onclick="ejer4()">4. Rotar digitos</div><!--pendiente-->
+                    <div onclick="ejer5()">5. Mostra digitos repetidos de un numero</div>
+                    <div onclick="ejer6()">6. Numero capicua</div>
+                    <div onclick="ejer7()">7. Numero primo</div>
+                    <div onclick="ejer8()">8. Serie de numeros primos</div>
+            </nav>
+                <div class="mostrador">
+                   <div>
+                    <div id="resultado1">
+                        <div>
+                            <h1>Bienvenido</h1>
+                            <hr>
+                            <br>
+                            <div id="inicio">
+                                <img src="./images/inicio1.jpg" alt="">
+                                <p class="index">Esta pagina web fue creada con html, css y JavaScript.</p>
+                                <p class="index">En la pagina como veras contiene contiene dos menus totalmente funcionales, que si pulsas sobre ellos podras ver distintos temas... obiamente dentro de ellos tambien hay mas interacciones como botones etc ya de te daras cuenta.</p>
+                                <p class="index">las opciones que tiene esta pagina te llevara a un tema en especifico donde contiene una corta descripcion de que es lo que hacen los botones etc (no olvides leer) <strong style="color: goldenrod;">"LOS RESULTADOS SE MUESTRAN DEBAJO DE LAS DESCRIPCIONES DE CADA TEMA"</strong>.</p>
+                                <p class="index">Algo que de seguro llamo tu atencion, es el movimiento de la imagen en la portada, se ve atractivo verdad? bueno segun mi opinion si se ve genial jejej</p>
+                                <p class="index">Si deseas saber de donde vinieron todas esas opciones en los menus o preguntas como estan ahi, puedes pulsar en los botones que dicen "Ver mas detalles " o en el boton "Detalles " que practicamente te llevaran al mismo lugar y te mostrara que esta pagina fue creada como una tarea pero para mi persona no fue una tarea, sino algo realente entretenido que la verdad si me tomo como una sema acabarlo.</p>
+                                <p class="index">!Ah¡ Casi lo olvido jejej ESTA PAGINA ES RESPONSIVE  eso significa que se ve genial en dispositivos mobiles como en celulares o tablets etc. </p>
+                                <p class="index">Sin mas que decir puedes comenzar a explorar en la pagian que te diviertas :)</p>
+                                <img src="./images/inicio2.jpg" alt="">    
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                   </div>
+   
+            </div>
+            <nav class="menu2">                
+                
+                    <h4>Preguntas</h4>
+                    <div onclick="ejer9()">9. Vector Fibonaci</div>
+                    <div onclick="ejer10()">10. Serie expoencial</div><!--pendiente-->
+                    <div onclick="ejer11()">11. Palabra Palindrome</div>
+                    <div onclick="ejer12()">12. Invertir una cadena de Caracteres</div>
+                    <div onclick="ej13()">13. Calculadora </div>
+                    <div onclick="ejer14()">14. Convertir un Numero a nro. Romanos</div>
+                    <div onclick="ejer15()">15. Matriz de Pascal</div>
+            </nav>
+        </div>
+    <script src="./js/formularios.js"></script>
+    <script src="./js/main2.js"></script>
+    <script src="./js/main.js"></script>
+    <div class="footer">
+        <img src="./images/pie.png" alt="">
+        <!--<div>
+            Eleazar Jhonny 
+            Cruz Mamanni
+        </div>-->
+        <div>
+            Esta pagina es RESPONSIVE
+        </div>
+    </div>
+</body>
+</html>

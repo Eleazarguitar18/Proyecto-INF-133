@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mostrador{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-left: 9px;
+    padding: 8px;
+    
+}
+.mostrador p{
+    padding-top: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr{
+    margin: 0;
+    padding: 1px;
+    border-style: none;
+    background: -webkit-linear-gradient(left, black, cyan);
+}
